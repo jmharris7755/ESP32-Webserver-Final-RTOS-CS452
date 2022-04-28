@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*********************************
+ * ESP32 Wepbage Styling         *
+ *********************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  overflow: hidden;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.panel {
+  display: grid;
+  grid-gap: 3em;
+  justify-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+var {
+    font-family: fantasy;
+    font-size: 1.5rem;
+    color:crimson;
+    text-shadow: 0 2px 4px rgba(230, 77, 30, 0.3);
+}
+
+.button{
+  display: inline-block;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.button2{
+  background-color: #f44336;
+}

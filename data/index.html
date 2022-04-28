@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="Justin Harris">
+  <meta name="description" content="ESP32 Webpage">
+  <title>ESP32 Webpage</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="panel">
+    <h1>ESP32 Webpage</h1>
+    <div id="temperature"></div>
+        <h1>Temperature &degF: </h1>
+        <var id="tempDisplay"></var>
+    <div id="humidity"></div>
+        <h1>Humidity: </h1>
+        <var id="humDisplay"></var>
+
+    <div id = "motorStatus"></div>
+        <h1>Motor Status:</h1>
+        <var id="motStatDisplay"></var>
+        <p><a href="/cw"><button class="button">Rotate Clockwise</a></p>
+        <p><a href="/ccw"><button class="button button2">Rotate Counter-Clockwise</a></p>
+  </div>
+  <script src = "index.js"></script>
+</body>
+
+</html>
