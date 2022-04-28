@@ -25,7 +25,7 @@ is moving in a clockwise direction, and Bright Cyan if moving in a Counter-Clock
 Led 2 emits a Purple blink whenever data is communicated to the school webserver, and Led 3 emites a Yellow blink
 when data is sent to the web page hosted by the ESP32. 
 
-Motor Function include:
+Motor Functions include:
 
 Rotating Clockwise continuously. 
 Rotating Counter-Clockwise continuously. 
